@@ -1,13 +1,14 @@
 [build-system]
-requires = ["setuptools>=68"]
+requires = ["setuptools>=69"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "buddy-soundboard-studio-test"
 version = "0.1.0"
-description = "Buddy Soundboard Studio Test"
+description = "A polished Windows desktop mini soundboard studio for AI Code Buddy testing."
 readme = "README.md"
 requires-python = ">=3.10"
+authors = [{ name = "AI Code Buddy" }]
 dependencies = []
 
 [project.optional-dependencies]
