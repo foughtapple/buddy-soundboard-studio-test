@@ -15,6 +15,7 @@ Requirements:
 - Show a title at the top: “Soundboard Studio”.
 - Display 8 large sound pad buttons in a 2 x 4 grid.
 - Each pad should have a name, such as Airhorn, Applause, Laser, Drum Hit, Bell, Error Buzz, Magic, and Victory.
+- All sound pad buttons should be green, including normal, hover, and pressed states.
 - When I click a pad, play a short generated sound effect using standard Python/Windows capabilities where practical.
 - Do not require external audio files for the first version.
 - Show a visual “Now playing” label when a pad is pressed.
@@ -29,4 +30,4 @@ Requirements:
 
 ## Superseded / replaced requirements
 
-- None yet.
+- Previous generic pad color styling is superseded by the explicit requirement that all sound pad buttons are green.
