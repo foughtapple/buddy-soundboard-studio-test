@@ -1,0 +1,35 @@
+{
+  "project_name": "Buddy Soundboard Studio Test",
+  "project_type": "python_windows",
+  "repo_full_name": "foughtapple/buddy-soundboard-studio-test",
+  "local_path": "C:\\Users\\jayde\\Documents\\buddy-soundboard-studio-test",
+  "branch": "main",
+  "poll_seconds": 30,
+  "workflow": {
+    "pull": "git pull --ff-only",
+    "bootstrap": "powershell -ExecutionPolicy Bypass -File .\\scripts\\setup.ps1",
+    "install": "powershell -ExecutionPolicy Bypass -File .\\scripts\\setup.ps1",
+    "compile": ".\\.venv\\Scripts\\python.exe -m compileall run_app.py src tests",
+    "test": "powershell -ExecutionPolicy Bypass -File .\\scripts\\test.ps1",
+    "build": null,
+    "launch": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run.ps1",
+    "check": ".\\.venv\\Scripts\\python.exe -m compileall run_app.py src tests",
+    "run": "powershell -ExecutionPolicy Bypass -File .\\scripts\\run.ps1",
+    "package": "powershell -ExecutionPolicy Bypass -File .\\scripts\\package.ps1",
+    "package_release": null,
+    "package_output": "dist\\BuddySoundboardStudioTest",
+    "open_package": "explorer \"dist\\BuddySoundboardStudioTest\"",
+    "install_package": null
+  },
+  "policy": {
+    "allow_delete": false,
+    "allow_force_push": false,
+    "allow_arbitrary_commands": false,
+    "continue_on_test_failure": true,
+    "launch_after_compile_success": true
+  },
+  "debug": {
+    "log_file": "logs/ai_code_buddy_debug.md",
+    "last_run_json": "logs/ai_code_buddy_last_run.json"
+  }
+}
