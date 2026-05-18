@@ -69,15 +69,15 @@ class SoundboardApp(tk.Tk):
             "Pad.TButton",
             font=("Segoe UI", 15, "bold"),
             padding=20,
-            background="#243044",
+            background="#16a34a",
             foreground="#f8fafc",
             borderwidth=1,
             focusthickness=3,
-            focuscolor="#38bdf8",
+            focuscolor="#86efac",
         )
         style.map(
             "Pad.TButton",
-            background=[("active", "#334155"), ("pressed", "#0ea5e9")],
+            background=[("active", "#22c55e"), ("pressed", "#15803d")],
             foreground=[("active", "#ffffff"), ("pressed", "#ffffff")],
         )
         style.configure(
